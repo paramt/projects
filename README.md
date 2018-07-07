@@ -1,5 +1,3 @@
-# Projects
-
 ### Discord Emoji Converter 
 A tool to convert any message into emoji markup that Discord understands.
 [Website](https://param.me/discord-emoji) |
@@ -43,4 +41,4 @@ ___
 A converter that converts numbers from the modern-day decimal system to the Ancient Egyptian number system.
 [Website](https://bit.ly/2JpR0jr)
 
-###### Created in February of 2015 using Javascript
+###### Created in February 2015 using Javascript
