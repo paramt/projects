@@ -1,3 +1,12 @@
+### Email Status
+A site that validates if an email address exists or not.
+[Website](https://param.me/email-status) |
+[Github](https://github.com/paramt/email-status)
+
+
+###### Created in August 2018 using PHP
+___
+
 ### Discord Emoji Converter 
 A tool to convert any message into emoji markup that Discord understands.
 [Website](https://param.me/discord-emoji) |
