@@ -1,3 +1,12 @@
+### Mathü
+An AI that grows and adapts to individual students' needs.
+[Website](https://mathu.ca) |
+[Github](https://github.com/paramt/mathu)
+
+
+###### Created in September 2018 using Javascript
+___
+
 ### Email Status
 A site that validates if an email address exists or not.
 [Website](https://param.me/email-status) |
