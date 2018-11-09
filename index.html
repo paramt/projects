@@ -43,6 +43,17 @@
 
         <div class="w3-col m4 w3-margin-bottom">
           <div class="w3-light-grey" id="project-1">
+            <a href="https://mathu.ca" target="_blank"><img src="/resources/img/mathu.png" alt="Mathu" style="width:100%" class="project-img"></a>
+            <div class="w3-container">
+              <h3>Mathü</h3>
+              <p class="w3-opacity">Completed - <a target="_blank" href="https://github.com/paramt/mathu">Github</a></p>
+              <p>An AI that adapts and grows to individual students' needs. Mathü came first place at the <i>Imagine Hackathon</i> in September 2018.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey" id="project-2">
             <a href="https://code.param.me" target="_blank"><img src="/resources/img/coding.jpg" alt="Code" style="width:100%" class="project-img"></a>
             <div class="w3-container">
               <h3>PHP Webpage Builder</h3>
@@ -53,7 +64,7 @@
         </div>
 
         <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-2">
+          <div class="w3-light-grey" id="project-3">
             <a href="/discord-emoji" target="_blank"><img src="/resources/img/discord.png" alt="Discord Emoji" style="width:100%" class="project-img"></a>
             <div class="w3-container">
               <h3>Discord Emoji Converter</h3>
@@ -64,7 +75,18 @@
         </div>
 
         <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-3">
+          <div class="w3-light-grey" id="project-4">
+            <a href="https://param.me/email-status" target="_blank"><img src="/resources/img/mailbox.jpg" alt="Mailbox" style="width:100%" class="project-img"></a>
+            <div class="w3-container">
+              <h3>Email Status</h3>
+              <p class="w3-opacity">Work in progress - <a target="_blank" href="https://github.com/paramt/sanskrit-quotes-calendar">Github</a></p>
+              <p>This site validates email addresses using a Rest API. It checks if an email exists as well as if it is disposable or not.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey" id="project-5">
             <a href="https://bit.ly/2JpR0jr" target="_blank"><img src="/resources/img/egyptian.jpg" alt="Egyptian Numbers" style="width:100%" class="project-img"></a>
             <div class="w3-container">
               <h3>Egyptian Number Translator</h3>
@@ -75,7 +97,7 @@
         </div>
 
         <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey">
+          <div class="w3-light-grey" id="project-6">
             <a href="https://gq31.gq" target="_blank"><img src="/resources/img/sunset.png" alt="Sunset" style="width:100%" class="project-img"></a>
             <div class="w3-container">
               <h3>Sanskrit Quotes Calendar</h3>
@@ -94,15 +116,18 @@
       var project2 = document.getElementById('project-2');
       var project1 = document.getElementById('project-1');
       var project3 = document.getElementById('project-3');
+      var project4 = document.getElementById('project-4');
+      var project5 = document.getElementById('project-5');
+      var project6 = document.getElementById('project-6');
 
-      var biggest = Math.max(project1.offsetHeight, project2.offsetHeight, project3.offsetHeight);
-      console.log("project1: " + project1.offsetHeight + "px > " + biggest + "px");
-      console.log("project2: " + project2.offsetHeight + "px > " + biggest + "px");
-      console.log("project3: " + project3.offsetHeight + "px > " + biggest + "px");
+      var biggest = Math.max(project1.offsetHeight, project2.offsetHeight, project3.offsetHeight, project4.offsetHeight, project5.offsetHeight, project6.offsetHeight);
 
       document.getElementById('project-1').style.height = biggest + "px";
       document.getElementById('project-2').style.height = biggest + "px";
       document.getElementById('project-3').style.height = biggest + "px";
+      document.getElementById('project-4').style.height = biggest + "px";
+      document.getElementById('project-5').style.height = biggest + "px";
+      document.getElementById('project-6').style.height = biggest + "px";
     }
 
     window.onload = function(){
