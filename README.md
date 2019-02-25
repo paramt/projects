@@ -1,6 +1,24 @@
+### MemeAdviser
+A reddit bot that analyzes the market at [r/MemeEconomy](https://www.reddit.com/r/MemeEconomy) and provides insightful information.
+[Website](https://www.1pt.co) |
+[Github](https://github.com/paramt/1pt)
+
+
+###### Created in February 2019 using Python
+___
+
+### 1-Point
+A dynamic URL shortener capable of pointing users to different destinations based on various factors
+[Website](https://www.1pt.co) |
+[Github](https://github.com/paramt/1pt)
+
+
+###### Created in December 2018 using PHP
+___
+
 ### Mathü
 An AI that grows and adapts to individual students' needs.
-[Website](https://mathu.ca) |
+[Website](https://www.mathu.ca) |
 [Github](https://github.com/paramt/mathu)
 
 
@@ -9,16 +27,16 @@ ___
 
 ### Email Status
 A site that validates if an email address exists or not.
-[Website](https://param.me/email-status) |
+[Website](https://www.param.me/email-status) |
 [Github](https://github.com/paramt/email-status)
 
 
 ###### Created in August 2018 using PHP
 ___
 
-### Discord Emoji Converter 
+### Discord Emoji Converter
 A tool to convert any message into emoji markup that Discord understands.
-[Website](https://param.me/discord-emoji) |
+[Website](https://www.param.me/discord-emoji) |
 [Github](https://github.com/paramt/discord-emoji)
 
 
@@ -49,7 +67,7 @@ An app that lets users play the number game *Popcorn* from anywhere around the w
 ___
 
 ### Spellbind [App]
-An app that lets users practice different levels of spelling while recieving instant feedback.
+An app that lets users practice different levels of spelling while receiving instant feedback.
 [Link](https://play.google.com/store/apps/details?id=appinventor.ai_700164.SpellBind_all)
 
 ###### Created in November 2016 using [MIT App Inventor](http://appinventor.mit.edu/)
