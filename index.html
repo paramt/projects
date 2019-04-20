@@ -42,6 +42,17 @@
       <div class="w3-row-padding w3-grayscale">
 
         <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey" id="project-10">
+            <a href="https://param.me/trackarma" target="_blank"><img src="/resources/img/trackarma.png" alt="Trackarma" style="width:100%" class="project-img"></a>
+            <div class="w3-container">
+              <h3>Trackarma</h3>
+              <p class="w3-opacity">March 2019 - <a target="_blank" href="https://github.com/paramt/trackarma">Github</a></p>
+              <p>A python script that tracks and graphs a Redditor's karma over time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-col m4 w3-margin-bottom">
           <div class="w3-light-grey" id="project-5">
             <a href="https://param.me/MemeAdviser" target="_blank"><img src="/resources/img/reddit.png" alt="MemeAdviser" style="width:100%" class="project-img"></a>
             <div class="w3-container">
@@ -57,8 +68,19 @@
             <a href="https://1pt.co" target="_blank"><img src="/resources/img/1pt.png" alt="1-Point" style="width:100%" class="project-img"></a>
             <div class="w3-container">
               <h3>1 Point</h3>
-              <p class="w3-opacity">December 2018 (WIP) - <a target="_blank" href="https://github.com/paramt/1pt">Github</a></p>
+              <p class="w3-opacity">December 2018 - <a target="_blank" href="https://github.com/paramt/1pt">Github</a></p>
               <p>A dynamic URL shortener capable of pointing users to different destinations based on region, client, hardware, or other similar factors.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey" id="project-9">
+            <a href="https://param.me/kevlar" target="_blank"><img src="/resources/img/kevlar.png" alt="Kevlar" style="width:100%" class="project-img"></a>
+            <div class="w3-container">
+              <h3>Kevlar Animation</h3>
+              <p class="w3-opacity">November 2018 - <a target="_blank" href="https://github.com/paramt/kevlar">Github</a></p>
+              <p>A web animation of kevar's chemical structure made using After Effects and rendered with <a href="https://airbnb.io/lottie/#/">Lottie</a> </p>
             </div>
           </div>
         </div>
@@ -154,8 +176,10 @@
       var project6 = document.getElementById('project-6');
       var project7 = document.getElementById('project-7');
       var project8 = document.getElementById('project-8');
+      var project7 = document.getElementById('project-9');
+      var project8 = document.getElementById('project-10');
 
-      var biggest1 = Math.max(project1.offsetHeight, project2.offsetHeight, project3.offsetHeight, project4.offsetHeight, project5.offsetHeight, project6.offsetHeight, project7.offsetHeight, project8.offsetHeight);
+      var biggest1 = Math.max(project1.offsetHeight, project2.offsetHeight, project3.offsetHeight, project4.offsetHeight, project5.offsetHeight, project6.offsetHeight, project7.offsetHeight, project8.offsetHeight, project9.offsetHeight, project10.offsetHeight);
 
       document.getElementById('project-1').style.height = biggest + "px";
       document.getElementById('project-2').style.height = biggest + "px";
@@ -165,6 +189,8 @@
       document.getElementById('project-6').style.height = biggest + "px";
       document.getElementById('project-7').style.height = biggest + "px";
       document.getElementById('project-8').style.height = biggest + "px";
+      document.getElementById('project-9').style.height = biggest + "px";
+      document.getElementById('project-10').style.height = biggest + "px";
     }
 
     window.onload = function(){
