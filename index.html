@@ -10,193 +10,146 @@
     <meta property="og:description" content="A place for some cool projects worth sharing."/>
     <meta property="og:image" content="https://yt3.ggpht.com/-q1rEVnN3cRM/AAAAAAAAAAI/AAAAAAAAAAA/P8AsrXZCh1w/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" />
 
-    <link rel="stylesheet" href="https://param.me/old/resources/css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script defer src="script.js"></script>
 
     <meta name="description" content="A place for some cool projects worth sharing. Feel free to check them out, and maybe leave a suggestion or two.">
     <meta name="robots" content="noimageindex">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/old/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/old/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/old/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/old/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/old/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/old/favicon/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="Param Thakkar">
-    <meta name="application-name" content="Param Thakkar">
-    <meta name="msapplication-TileColor" content="#F44336">
-    <meta name="msapplication-config" content="/old/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#F44336">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.param.me/resources/favicon/apple-touch-icon.png?v=bOMbqXqrgO">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.param.me/resources/favicon/favicon-32x32.png?v=bOMbqXqrgO">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.param.me/resources/favicon/favicon-16x16.png?v=bOMbqXqrgO">
+    <link rel="manifest" href="https://www.param.me/resources/favicon/site.webmanifest?v=bOMbqXqrgO">
+    <link rel="mask-icon" href="https://www.param.me/resources/favicon/safari-pinned-tab.svg?v=bOMbqXqrgO" color="#5bbad5">
+    <link rel="shortcut icon" href="https://www.param.me/resources/favicon/favicon.ico?v=bOMbqXqrgO">
+    <meta name="msapplication-TileColor" content="#e68b8b">
+    <meta name="msapplication-config" content="https://www.param.me/resources/favicon/browserconfig.xml?v=bOMbqXqrgO">
+    <meta name="theme-color" content="#932524">
   </head>
 
   <body>
-    <div class="w3-container" id="projects">
-      <h1 class="w3-xxxlarge w3-text-red"><b>Projects.</b></h1>
-      <hr style="width:50px;border:5px solid red" class="w3-round">
-      <p>A place for some cool projects that are worth sharing.</p>
-      <p style="width:80vw;">Here you can expect both projects I'm working on and ones that I've finished. Feel free to check them out, and leave some <a id="contact-btn-2" href="https://www.param.me#contact">feedback</a> if you find a bug or something you'd like to see. You can check out most of my projects on <a href="https://github.com/paramt">Github</a> if you'd like.</p>
-      <p><b>Click on the image to find out more</b>:</p>
+
+    <div class="container">
+      <h1>Projects</h1>
     </div>
 
-      <div class="w3-row-padding w3-grayscale">
+    
+    <div class="timeline" id="timeline-highlight">
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-10">
-            <a href="https://param.me/trackarma" target="_blank"><img src="/resources/img/trackarma.png" alt="Trackarma" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>Trackarma</h3>
-              <p class="w3-opacity">March 2019 - <a target="_blank" href="https://github.com/paramt/trackarma">Github</a></p>
-              <p>A python script that tracks and graphs a Redditor's karma over time.</p>
-            </div>
+      <div class="tcontainer left">
+          <div class="tcontent" onclick="window.open('https://www.param.me/sumopit')">
+            <h2>Sumo Pit</h2>
+            <p class="light">Work in progress</p>
+            <p>A simple game where players attempt to knock each other off a moving platform</p>
           </div>
+      </div>
+  
+      <div class="tcontainer right">
+          <div class="tcontent" onclick="window.open('https://www.param.me/trackarma')">
+            <h2>Trackarma</h2>
+            <p class="light">March 2019</p>
+            <p>A python script that tracks and graphs a Redditor's karma over time</p>
+          </div>
+      </div>
+  
+      <div class="tcontainer left">
+        <div class="tcontent" onclick="window.open('https://www.param.me/MemeAdviser')">
+          <h2>Meme Adviser</h2>
+          <p class="light">February 2019</p>
+          <p>A reddit bot that analyzes the market at <a href="https://www.reddit.com/r/MemeEconomy">r/MemeEconomy</a> and provides insightful information on investments</p>
         </div>
+      </div>
+  
+      <div class="tcontainer right">
+        <div class="tcontent" onclick="window.open('https://1pt.co')">
+          <h2>1 Point</h2>
+          <p class="light">December 2018</p>
+          <p>A dynamic URL shortener capable of pointing users to different destinations based on various factors</p>
+        </div>
+      </div>
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-5">
-            <a href="https://param.me/MemeAdviser" target="_blank"><img src="/resources/img/reddit.png" alt="MemeAdviser" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>MemeAdviser</h3>
-              <p class="w3-opacity">February 2019 - <a target="_blank" href="https://github.com/paramt/MemeAdviser">Github</a></p>
-              <p>A reddit bot that analyzes the market at <a target="_blank" href="https://www.reddit.com/r/MemeEconomy">r/MemeEconomy</a> and provides insightful information.</p>
-            </div>
+      <div class="tcontainer left">
+          <div class="tcontent" onclick="window.open('https://www.param.me/kevlar')">
+            <h2>Kevlar Animation</h2>
+            <p class="light">November 2018</p>
+            <p>A web animation of kevar's chemical structure</p>
           </div>
-        </div>
+      </div>
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-5">
-            <a href="https://1pt.co" target="_blank"><img src="/resources/img/1pt.png" alt="1-Point" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>1 Point</h3>
-              <p class="w3-opacity">December 2018 - <a target="_blank" href="https://github.com/paramt/1pt">Github</a></p>
-              <p>A dynamic URL shortener capable of pointing users to different destinations based on region, client, hardware, or other similar factors.</p>
-            </div>
+      <div class="tcontainer right">
+          <div class="tcontent" onclick="window.open('https://mathu.ca')">
+            <h2>Mathü</h2>
+            <p class="light">September 2018</p>
+            <p>The first place pitch at the <i>Imagine Hackathon</i>: A concept for an AI that adapts and grows to individual students' needs</p>
           </div>
-        </div>
+      </div>
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-9">
-            <a href="https://param.me/kevlar" target="_blank"><img src="/resources/img/kevlar.png" alt="Kevlar" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>Kevlar Animation</h3>
-              <p class="w3-opacity">November 2018 - <a target="_blank" href="https://github.com/paramt/kevlar">Github</a></p>
-              <p>A web animation of kevar's chemical structure made using After Effects and rendered with <a href="https://airbnb.io/lottie/#/">Lottie</a> </p>
-            </div>
+      <div class="tcontainer left">
+          <div class="tcontent" onclick="window.open('https://www.param.me/discord-emoji')">
+            <h2>Discord Emoji</h2>
+            <p class="light">July 2018</p>
+            <p>A convenient tool to convert text into emoji markup that discord understands</p>
           </div>
-        </div>
+      </div>
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-1">
-            <a href="https://www.mathu.ca" target="_blank"><img src="/resources/img/mathu.png" alt="Mathu" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>Mathü</h3>
-              <p class="w3-opacity">September 2018 - <a target="_blank" href="https://github.com/paramt/mathu">Github</a></p>
-              <p>An AI that adapts and grows to individual students' needs. Mathü came first place at the <i>Imagine Hackathon</i> in September 2018.</p>
-            </div>
+      <div class="tcontainer right">
+          <div class="tcontent" onclick="window.open('https://www.param.me/email-status')">
+            <h2>Email Status</h2>
+            <p class="light">July 2018</p>
+            <p>A site that validates whether a given email address exists, as well as if it's disposable or not</p>
           </div>
-        </div>
+      </div>
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-3">
-            <a href="https://www.param.me/discord-emoji" target="_blank"><img src="/resources/img/discord.png" alt="Discord Emoji" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>Discord Emoji Converter</h3>
-              <p class="w3-opacity">July 2018 - <a target="_blank" href="https://github.com/paramt/discord-emoji">Github</a></p>
-              <p>A convenient tool to convert any message into emoji markup that discord understands.</p>
-            </div>
+      <div class="tcontainer left">
+          <div class="tcontent" onclick="window.open('https://code.param.me/')">
+            <h2>Webpage Builder</h2>
+            <p class="light">May 2018</p>
+            <p>An easy-to-use code editor that can generate permanent webpages</p>
           </div>
-        </div>
+      </div>
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-4">
-            <a href="https://param.me/email-status" target="_blank"><img src="/resources/img/mailbox.jpg" alt="Mailbox" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>Email Status</h3>
-              <p class="w3-opacity">July 2018 - <a target="_blank" href="https://github.com/paramt/email-status">Github</a></p>
-              <p>This site validates email addresses using a Rest API. It checks if an email exists as well as if it is disposable or not.</p>
-            </div>
+      <div class="tcontainer right">
+          <div class="tcontent" onclick="window.open('https://gq31.gq')">
+            <h2>Sanskrit Quotes Calendar</h2>
+            <p class="light">May 2018</p>
+            <p>A page that shows a different सुभाषितम् (sanskrit quote) each day, accompanied by an image.</p>
           </div>
-        </div>
+      </div>
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-2">
-            <a href="https://code.param.me" target="_blank"><img src="/resources/img/coding.jpg" alt="Code" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>PHP Webpage Builder</h3>
-              <p class="w3-opacity">May 2018 - <a target="_blank" href="https://github.com/paramt/code-editor">Github</a></p>
-              <p>A simple webpage builder with a built&#8209;in code editor. Based on <a target="_blank" href="https://codemirror.net/">CodeMirror</a>, the editor features autosaving, code folding, & smart suggestions.</p>
-            </div>
+      <div class="tcontainer left">
+          <div class="tcontent" onclick="window.open('https://play.google.com/store/apps/details?id=appinventor.ai_700164.Topcorn')">
+            <h2>Topcorn</h2>
+            <p class="light">February 2017</p>
+            <p>An app that lets users play the popular party game <i>Popcorn</i> from anywhere around the world.</p>
           </div>
-        </div>
+      </div>
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-6">
-            <a href="https://gq31.gq" target="_blank"><img src="/resources/img/sunset.png" alt="Sunset" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>Sanskrit Quotes Calendar</h3>
-              <p class="w3-opacity">May 2018 - <a target="_blank" href="https://github.com/paramt/sanskrit-quotes-calendar">Github</a></p>
-              <p>This page shows a different सुभाषितम् <i>(sanskrit&nbsp;quote)</i> every day, and each quote is accompanied by a beautiful image.</p>
-            </div>
+      <div class="tcontainer right">
+          <div class="tcontent" onclick="window.open('https://play.google.com/store/apps/details?id=appinventor.ai_700164.SpellBind_all')">
+            <h2>Spell Bind</h2>
+            <p class="light">November 2016</p>
+            <p>An app that lets users practice different levels of spelling while receiving instant feedback</p>
           </div>
-        </div>
+      </div>
 
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-7">
-            <a href="https://play.google.com/store/apps/details?id=appinventor.ai_700164.Topcorn&hl=en" target="_blank"><img src="/resources/img/topcorn.png" alt="Sunset" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>Topcorn</h3>
-              <p class="w3-opacity">February 2017</a></p>
-              <p>An app that lets users play the number game *Popcorn* from anywhere around the world.</p>
-            </div>
+      <div class="tcontainer left">
+          <div class="tcontent" onclick="window.open('https://www.khanacademy.org/computer-programming/crazy-car/4555298169683968')">
+            <h2>Crazy Car</h2>
+            <p class="light">2014</p>
+            <p>My introduction to the programming world: a game I made after learning ProcessingJS from Khan Academy</p>
           </div>
-        </div>
-
-        <div class="w3-col m4 w3-margin-bottom">
-          <div class="w3-light-grey" id="project-8">
-            <a href="https://play.google.com/store/apps/details?id=appinventor.ai_700164.SpellBind_all" target="_blank"><img src="/resources/img/spellbind.png" alt="Sunset" style="width:100%" class="project-img"></a>
-            <div class="w3-container">
-              <h3>SpellBind</h3>
-              <p class="w3-opacity">November 2016</p>
-              <p>An app that lets users practice different levels of spelling while receiving instant feedback.</p>
-            </div>
-          </div>
-        </div>
+      </div>
 
     </div>
 
-    <script>
-    /** determine height of project images */
-
-    function resizeProjectDivs(){
-      var project2 = document.getElementById('project-2');
-      var project1 = document.getElementById('project-1');
-      var project3 = document.getElementById('project-3');
-      var project4 = document.getElementById('project-4');
-      var project5 = document.getElementById('project-5');
-      var project6 = document.getElementById('project-6');
-      var project7 = document.getElementById('project-7');
-      var project8 = document.getElementById('project-8');
-      var project7 = document.getElementById('project-9');
-      var project8 = document.getElementById('project-10');
-
-      var biggest1 = Math.max(project1.offsetHeight, project2.offsetHeight, project3.offsetHeight, project4.offsetHeight, project5.offsetHeight, project6.offsetHeight, project7.offsetHeight, project8.offsetHeight, project9.offsetHeight, project10.offsetHeight);
-
-      document.getElementById('project-1').style.height = biggest + "px";
-      document.getElementById('project-2').style.height = biggest + "px";
-      document.getElementById('project-3').style.height = biggest + "px";
-      document.getElementById('project-4').style.height = biggest + "px";
-      document.getElementById('project-5').style.height = biggest + "px";
-      document.getElementById('project-6').style.height = biggest + "px";
-      document.getElementById('project-7').style.height = biggest + "px";
-      document.getElementById('project-8').style.height = biggest + "px";
-      document.getElementById('project-9').style.height = biggest + "px";
-      document.getElementById('project-10').style.height = biggest + "px";
-    }
-
-    window.onload = function(){
-      resizeProjectDivs();
-    }
-    </script>
+    <div class="content" id="more">
+        <h2><img align="center" style="height: 1em" src="https://www.param.me/resources/img/fiverr-icon.png"> <a target="_blank" href="https://www.fiverr.com/paramthakkar" rel="noopener">Hire me on Fiverr</a></h2>
+        <h2 ><i class="fas fa-arrow-alt-circle-down"></i> <a target="_blank" href="/resume/ParamThakkarResume.pdf">Download Resume</a></h2>
+        <h2><i class="fas fa-envelope"></i> <a target="_blank" href="mailto:contact@param.me">contact@param.me</a></h2>
+    </div>
 
   </body>
 </html>
