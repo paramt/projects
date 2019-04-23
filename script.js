@@ -11,17 +11,17 @@ for (var i = 0; i < tcontents.length; i++){
 function hover(state, i){
     switch(state){
         case 0:
-            if(tcontainers[i].classList == "tcontainer leftlight"){
+            if(tcontainers[i].classList.value.includes("leftlight")){
                 tcontainers[i].classList = "tcontainer left";
             } else {
                 tcontainers[i].classList = "tcontainer right";
             }
             break;
         case 1:
-            if(tcontainers[i].classList == "tcontainer left"){
-                tcontainers[i].classList = "tcontainer leftlight";
+            if(tcontainers[i].classList.value.includes("left")){
+                tcontainers[i].classList = "tcontainer left leftlight";
             } else {
-                tcontainers[i].classList = "tcontainer rightlight";
+                tcontainers[i].classList = "tcontainer right rightlight";
             }
             break;
     }
