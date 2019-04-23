@@ -54,7 +54,7 @@ a:hover{
 }
 
 .tcontent:hover{
-  background-color: #222222;
+  background-color: #292929;
   cursor: pointer;
 }
 
@@ -220,22 +220,17 @@ html, body, .container{
   border-color: transparent #191919 transparent transparent;
 }
 
-.rightlight::before{
-  border-color: transparent #222222 transparent transparent;
-}
-
-.leftlight::before{
-  border-color: transparent transparent transparent #222222;
-}
-
-/* Fix the circle for containers on the right side */
-.rightlight::after {
-  left: -16px;
-}
-
 /* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
+}
+
+.rightlight::before{
+  border-color: transparent #292929 transparent transparent;
+}
+
+.leftlight::before{
+  border-color: transparent transparent transparent #292929;
 }
 
 /* The actual content */
