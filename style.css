@@ -149,7 +149,7 @@ html, body, .container{
   position: absolute;
   width: 6px;
   background-color: #191919;
-  top: 0;
+  top: 25px;
   bottom: 0;
   left: 50%;
   margin-left: -3px;
