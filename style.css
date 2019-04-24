@@ -45,14 +45,6 @@ a:hover{
   color: white;
 }
 
-#more a{
-  color: white;
-}
-
-#more a:hover{
-  color: #4589f7;
-}
-
 .tcontent:hover{
   background-color: #292929;
   cursor: pointer;
@@ -76,13 +68,19 @@ html, body, .container{
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 40%;
+  padding: 50px 0;
+  font-family: 'Open Sans';
+  font-size: 1.3em;
+  text-decoration: none;
 }
 
-.content h1{
-  padding-bottom: 5vh;
+.content a{
+  color: white;
+}
+
+.content a:hover{
+  color: #4589f7;
 }
 
 @media only screen and (max-width: 700px){
@@ -98,7 +96,7 @@ html, body, .container{
     font-size: 1.2em;
   }
 
-  p{
+  p:not(child(.content)){
     font-size: 1.2em;
   }
 
@@ -128,9 +126,6 @@ html, body, .container{
 
   p{
     font-size: 1.2em;
-  }
-  #more h2{
-    font-size: 1.6em;
   }
 }
 
