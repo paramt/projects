@@ -96,7 +96,7 @@ html, body, .container{
     font-size: 1.2em;
   }
 
-  p:not(child(.content)){
+  p:not(.content>p){
     font-size: 1.2em;
   }
 
