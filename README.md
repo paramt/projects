@@ -1,3 +1,13 @@
+### Sumo Pit
+A local multiplayer game where players try to push each other off a moving platform
+
+[Download](https://github.com/paramt/sumopit/releases) |
+[Github](https://github.com/paramt/sumopit)
+
+
+###### Created in May 2019 using Unity3D
+___
+
 ### Trackarma
 A python script that tracks and graphs a Redditor's karma over time
 
@@ -16,6 +26,16 @@ A reddit bot that analyzes the market at [r/MemeEconomy](https://www.reddit.com/
 
 
 ###### Created in February 2019 using Python
+___
+
+### MemeEconomy Maket Evaluator
+A set of online tools and calculators to analyze the market at [r/MemeEconomy](https://www.reddit.com/r/MemeEconomy)
+
+[Website](https://www.param.me/meme) |
+[Github](https://github.com/paramt/meme)
+
+
+###### Created in January 2019 using Javascript
 ___
 
 ### 1-Point
