@@ -243,6 +243,7 @@ html, body, .container{
   left: -16px;
 }
 
+/* Change arrow color on hover */
 .rightlight::before{
   border-color: transparent var(--hover-color) transparent transparent;
 }
@@ -291,6 +292,7 @@ html, body, .container{
     left: 0%;
   }
 
+  /* Make sure all the arrows that are facing right on desktop hover continue facing left on mobile hover */
   .left:hover::before{
     border-color: transparent var(--hover-color) transparent transparent;
   }
