@@ -24,7 +24,7 @@
             <div class="tcontent" onclick="window.open('{{ project.link }}')">
               <h2>{{ project.title }}</h2>
               <p class="light">{{ project.date }}</p>
-              <p>{{ project.desc }}</p>
+              <p>{{ project.desc || markdownify}}</p>
             </div>
           </div>
       {% endfor %}
