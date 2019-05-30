@@ -60,7 +60,7 @@ a:hover{
   color: white;
 }
 
-.right:hover > .tcontent, .left:hover > .tcontent{
+.tcontent:hover{
   background-color: var(--hover-color);
   cursor: pointer;
 }
@@ -230,15 +230,6 @@ html, body, .container{
   border-color: transparent var(--foreground-color) transparent transparent;
 }
 
-/* Change arrow color on hover */
-.left:hover::before{
-  border-color: transparent transparent transparent var(--hover-color);
-}
-
-.right:hover::before{
-  border-color: transparent var(--hover-color) transparent transparent;
-}
-
 /* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
@@ -282,10 +273,5 @@ html, body, .container{
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
-  }
-
-  /* Make sure all the arrows that are facing right on desktop hover continue facing left on mobile hover */
-  .left:hover::before{
-    border-color: transparent var(--hover-color) transparent transparent;
   }
 }
