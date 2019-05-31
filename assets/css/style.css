@@ -235,14 +235,6 @@ html, body, .container{
   left: -16px;
 }
 
-.rightlight::before{
-  border-color: transparent var(--hover-color) transparent transparent;
-}
-
-.leftlight::before{
-  border-color: transparent transparent transparent var(--hover-color);
-}
-
 /* The actual content */
 .tcontent {
   padding: 20px 30px;
