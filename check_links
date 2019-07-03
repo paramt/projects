@@ -1,0 +1,35 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
+import csv
+import requests
+
+projects_file = "_data/projects.csv"
+projects = []
+
+print("Collecting all URLs from {projects_file}")
+
+with open(projects_file) as f:
+    lines = f
+    lines = f.readlines()
+
+    for l in  csv.reader(lines, quotechar='"', delimiter=',', quoting=csv.QUOTE_ALL, skipinitialspace=True):
+        projects.append(l[3])
+
+    projects.pop(0)
+
+print("Checking all URLs")
+
+for url in projects:
+    try:
+        request = requests.get(url)
+        if request.status_code == 200:
+            print(f"✓ {url}")
+    except:
+        print(f"✕ {url}")
+
+        # Continue through all URLs but fail test at the end
+        exit_status = 1
+        continue
+
+exit(exit_status)
