@@ -6,6 +6,7 @@ import requests
 
 projects_file = "_data/projects.csv"
 projects = []
+exit_status = 0
 
 print("Collecting all URLs from {projects_file}")
 
