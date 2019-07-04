@@ -1,7 +1,8 @@
 container:
   image: python:slim
 
-test_task:
+task:
+  name: Check URLs
   pip_cache:
     folder: ~/.cache/pip
     fingerprint_script: echo $PYTHON_VERSION
