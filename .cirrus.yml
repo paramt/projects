@@ -4,5 +4,5 @@ container:
 task:
   name: Check URLs
   fingerprint_script: echo $PYTHON_VERSION
-  populate_script: pip install requests
+  populate_script: pip install -r requirements.txt
   test_script: python tests/check_links
