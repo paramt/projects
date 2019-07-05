@@ -14,7 +14,7 @@ links = []
 projects = []
 exit_status = 0
 
-print("Collecting all URLs from {projects_file}")
+print(f"Collecting URLs from {projects_file}")
 
 with open(projects_file) as f:
     lines = f.readlines()
