@@ -5,4 +5,4 @@ task:
   name: Check URLs
   fingerprint_script: echo $PYTHON_VERSION
   populate_script: pip install requests
-  test_script: python check_links
+  test_script: python tests/check_links
