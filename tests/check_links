@@ -42,6 +42,7 @@ print("Cleaning up list of URLs")
 for link in links:
     if link in blacklisted:
         links.remove(link)
+        print(f"Removed {link}")
 
 print("Checking all URLs")
 
