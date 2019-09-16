@@ -71,7 +71,7 @@ ___
 ### Mathü
 The concept for an AI that grows and adapts to individual students' needs
 
-[Website](https://www.mathu.cf) |
+[Website](https://mathu.cf) |
 [Github](https://github.com/paramt/mathu)
 
 
