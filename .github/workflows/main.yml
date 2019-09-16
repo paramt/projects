@@ -12,4 +12,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         pwd,
-        python /tests/test_actions.py
+        python ../../tests/test_actions.py
