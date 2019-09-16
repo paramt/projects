@@ -11,5 +11,5 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a multi-line script
       run: |
-        python,
+        python
         import os;print(os.path.abspath(os.path.dirname(__file__)));print(os.listdir())
