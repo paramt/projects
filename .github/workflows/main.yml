@@ -1,9 +1,8 @@
 name: Check URLs
-
 on: [push]
 
 jobs:
-  setup:
+  run:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
