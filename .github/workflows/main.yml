@@ -2,7 +2,7 @@ name: Check URLs
 on: 
   push:
     branches:
-    - *
+    - master
   schedule:
   - cron: '0 0 * * *'
 
