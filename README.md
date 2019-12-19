@@ -1,5 +1,5 @@
 # Projects
-www.param.me/projects
+[param.me/projects](https://www.param.me/projects)
 
 ![Broken Link Status](https://github.com/paramt/projects/workflows/Check%20URLs/badge.svg)
 
