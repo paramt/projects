@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 # These URLs are blacklisted because they don't send back proper responses even though they work
-blacklisted = ["https://www.reddit.com/r/MemeEconomy"]
+blacklisted = ["https://www.reddit.com/r/MemeEconomy", "param.me/projects"]
 
 import csv
 import requests
