@@ -1,7 +1,5 @@
-# Projects
-[param.me/projects](https://www.param.me/projects)
-
-![Broken Link Status](https://github.com/paramt/projects/workflows/Check%20URLs/badge.svg)
+# [Projects](https://www.param.me/projects) ![Broken Link Status](https://github.com/paramt/projects/workflows/Check%20URLs/badge.svg)
+> A collection of all my personal projects
 
 ### URL Checker
 A GitHub action that tests markdown files for broken links
