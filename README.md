@@ -7,6 +7,15 @@ A Telegram bot that allows channel admins to post scheduled quizzes using a list
 [GitHub](https://github.com/paramt/q4t)
 
 ###### Created in March 2020 using Python
+___
+
+### Museum of Broken Watches
+An app that displays the correct time by showing a a picture of one of the 720 watches stopped in time. Based on the [art installation](http://wepplermahovsky.com/MBWapp/) by Rhonda Weppler & Trevor Mahovsky
+
+[Download](https://play.google.com/store/apps/details?id=appinventor.ai_harsht.MoBW)
+
+###### Created in February 2020 using App Inventor
+___
 
 ### URL Checker
 A GitHub action that tests markdown files for broken links
