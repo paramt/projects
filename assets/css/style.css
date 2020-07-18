@@ -26,6 +26,17 @@ h1, h2, h3, p, #arrow{
   color: white;
 }
 
+#arrow {
+  position: absolute;
+  bottom: 5vh;
+  left: 0;
+  width: 100%;
+  font-size: 3em;
+  opacity: 0;
+  text-align: center;
+  transition: opacity 0.5s;
+}
+
 h1{
   font-size: 5em;
 }
