@@ -2,6 +2,14 @@
 > A collection of all my personal projects
 
 ___
+### Dream Scheme
+A web app that generates Dreamesque intro scripts
+
+[Website](https://github.com/paramt/dream-scheme)
+[GitHub](https://github.com/paramt/dream-scheme)
+
+###### Created in July 2020 using JavaScript
+___
 ### Q4T
 A Telegram bot that allows channel admins to post scheduled quizzes using a list of questions from Google Sheets
 
