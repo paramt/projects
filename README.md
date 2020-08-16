@@ -5,7 +5,7 @@ ___
 ### Deathmatch
 A Minecraft plugin that creates a minigame for players to gather resources and battle it out
 
-[Download](https://github.com/paramt/deathmatch/releases)
+[Download](https://github.com/paramt/deathmatch/releases) | 
 [GitHub](https://github.com/paramt/deathmatch)
 
 ###### Created in August 2020 using Java
@@ -13,7 +13,7 @@ ___
 ### Dream Scheme
 A web app that generates Dreamesque intro scripts
 
-[Website](https://github.com/paramt/dream-scheme)
+[Website](https://github.com/paramt/dream-scheme) | 
 [GitHub](https://github.com/paramt/dream-scheme)
 
 ###### Created in July 2020 using JavaScript
