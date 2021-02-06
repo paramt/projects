@@ -47,7 +47,7 @@ ___
 ### Video Cloud
 A simple CLI that generates word clouds from YouTube videos
 
-[Website](https://videocloud.tech) |
+[Website](https://www.param.me/videocloud) |
 [GitHub](https://github.com/paramt/videocloud)
 
 
