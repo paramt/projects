@@ -4,7 +4,7 @@ Dream Scheme,July 2020,A web app that generates Dreamesque intro scripts,https:/
 Q4T,March 2020,A Telegram bot that allows channel admins to post scheduled quizzes using a list of questions from Google Sheets,https://github.com/paramt/q4t
 Museum of Broken Watches,February 2020,An app that displays the correct time by showing a a picture of one of the 720 watches stopped in time. Based on the [art installation](http://wepplermahovsky.com/MuseumofBrokenWatches.html) by Rhonda Weppler & Trevor Mahovsky., https://play.google.com/store/apps/details?id=appinventor.ai_harsht.MoBW
 URL Checker,October 2019,A GitHub action that tests markdown files for broken links,https://github.com/marketplace/actions/url-checker
-Video Cloud,June 2019,A simple CLI that generates word clouds from YouTube videos,https://videocloud.tech
+Video Cloud,June 2019,A simple CLI that generates word clouds from YouTube videos,https://www.param.me/videocloud
 Sumo Pit,May 2019,A local multiplayer game where players attempt to knock each other off a moving platform,https://github.com/paramt/sumopit/releases
 Trackarma,March 2019,A python script that tracks and graphs a Redditor's karma over time,https://trackarma.tk/
 Meme Adviser,February 2019,A reddit bot that analyzes the market at [r/MemeEconomy](https://www.reddit.com/r/MemeEconomy) and provides insightful information on investments,https://www.param.me/MemeAdviser/
