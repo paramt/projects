@@ -67,7 +67,7 @@ ___
 ### Trackarma
 A python script that tracks and graphs a Redditor's karma over time
 
-[Website](https://trackarma.tk) |
+[Website](https://www.param.me/trackarma) |
 [GitHub](https://github.com/paramt/trackarma)
 
 
