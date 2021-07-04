@@ -156,7 +156,7 @@ ___
 ### Sanskrit Quotes Calendar
 A simple website that shows a different quote in Sanskrit each day of the month
 
-[Website](https://gq31.gq) |
+[Website](https://gq30.gq/) |
 [GitHub](https://github.com/paramt/code-editor)
 
 ###### Created in May 2018 using Bootstrap
